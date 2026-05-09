@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+g4f
+pandas
+sqlalchemy
+python-multipart
+python-dotenv

@@ -1,0 +1,21 @@
+invoice_no,client_name,amount,due_date,overdue_days,reminders_sent
+INV-001,Rajesh Kapoor,45000,2026-04-20,15,0
+INV-002,Anita Singh,12000,2026-05-01,5,1
+INV-003,Sumit Parashar,75000,2026-03-15,45,4
+INV-004,Elena Rostova,8900,2026-05-05,4,0
+INV-005,Marcus Chen,34000,2026-04-22,17,2
+INV-006,Sarah Jenkins,11500,2026-04-10,29,3
+INV-007,Liam O'Connor,5400,2026-03-28,42,4
+INV-008,Priya Patel,22000,2026-05-02,7,1
+INV-009,Omar Farooq,67000,2026-04-15,24,2
+INV-010,Chloe Dubois,14300,2026-05-07,2,0
+INV-011,Julian Vance,98000,2026-03-10,60,4
+INV-012,Maya Sato,4100,2026-04-28,11,1
+INV-013,Caleb Thorne,27500,2026-04-18,21,3
+INV-014,Aisha Bello,56000,2026-05-08,1,0
+INV-015,Derek Vance,19200,2026-04-05,34,4
+INV-016,Fiona Gallagher,8800,2026-04-25,14,2
+INV-017,Kenji Nakamura,45000,2026-05-06,3,0
+INV-018,Sofia Rossi,31000,2026-04-12,27,3
+INV-019,Tarik Rahman,12400,2026-04-29,10,1
+INV-020,Nina Kravitz,76000,2026-03-20,50,4
