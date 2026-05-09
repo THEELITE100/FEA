@@ -78,9 +78,9 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const invRes = await axios.get('http://localhost:8000/invoices');
+      const invRes = await axios.get('https://fea-xtex.onrender.com/invoices');
       setInvoices(invRes.data);
-      const logRes = await axios.get('http://localhost:8000/logs');
+      const logRes = await axios.get('https://fea-xtex.onrender.com/logs');
       setLogs(logRes.data);
     } catch (error) {
       console.error("Data fetch error:", error);
@@ -93,7 +93,7 @@ function App() {
     setLoadingId(invoice.invoice_no);
     setLastEmail(null);
     try {
-      const res = await axios.post('http://localhost:8000/process-email', invoice);
+      const res = await axios.post('https://fea-xtex.onrender.com/process-email', invoice);
       if (res.data.status === "ESCALATED") {
         setLastEmail({ type: 'error', text: `RESTRICTED ACTION: Invoice ${invoice.invoice_no} breached the 30-day threshold. Transferred to legal division.`, invoice: invoice.invoice_no });
       } else {
